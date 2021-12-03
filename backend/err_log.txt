@@ -1,0 +1,45 @@
+
+Command 'nonup' not found, did you mean:
+
+  command 'nohup' from deb coreutils (8.30-3ubuntu2)
+  command 'nodup' from deb perforate (1.2-5.1)
+
+Try: apt install <deb name>
+
+nohup: ignoring input
+Watching for file changes with StatReloader
+nohup: ignoring input
+Watching for file changes with StatReloader
+Not Found: /
+[24/May/2020 20:22:17] "GET / HTTP/1.0" 404 2373
+Not Found: /favicon.ico
+[24/May/2020 20:22:18] "GET /favicon.ico HTTP/1.0" 404 2424
+nohup: ignoring input
+Watching for file changes with StatReloader
+Not Found: /
+[24/May/2020 20:23:48] "GET / HTTP/1.0" 404 2373
+Not Found: /
+[24/May/2020 20:23:48] "GET / HTTP/1.0" 404 2373
+Not Found: /
+[24/May/2020 20:23:49] "GET / HTTP/1.0" 404 2373
+nohup: ignoring input
+Watching for file changes with StatReloader
+Not Found: /
+[24/May/2020 20:28:05] "GET / HTTP/1.0" 404 2373
+Not Found: /
+[24/May/2020 20:28:05] "GET / HTTP/1.0" 404 2373
+nohup: ignoring input
+Watching for file changes with StatReloader
+Not Found: /
+[24/May/2020 20:28:37] "GET / HTTP/1.0" 404 2373
+Not Found: /favicon.ico
+[24/May/2020 20:28:37] "GET /favicon.ico HTTP/1.0" 404 2424
+[24/May/2020 20:28:40] "GET /admin/ HTTP/1.0" 200 11373
+[24/May/2020 20:28:42] "GET /admin/ HTTP/1.0" 200 11373
+nohup: ignoring input
+Watching for file changes with StatReloader
+nohup: ignoring input
+Watching for file changes with StatReloader
+nohup: ignoring input
+Watching for file changes with StatReloader
+/home/mrecords108/proj/backend/serv/settings.py changed, reloading.

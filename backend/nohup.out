@@ -1,0 +1,77 @@
+[24/May/2020 18:43:15] "GET /api/register/ HTTP/1.0" 500 145
+[24/May/2020 18:43:15] "GET /favicon.ico HTTP/1.0" 500 145
+[24/May/2020 18:43:16] "GET /api/register/ HTTP/1.0" 500 145
+[24/May/2020 18:43:16] "GET /api/register/ HTTP/1.0" 500 145
+[24/May/2020 18:43:16] "GET /favicon.ico HTTP/1.0" 500 145
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 24, 2020 - 18:43:08
+Django version 3.0.6, using settings 'serv.settings'
+Starting development server at http://0.0.0.0:8002/
+Quit the server with CONTROL-C.
+[24/May/2020 18:48:00] "GET /api/register/ HTTP/1.0" 500 145
+[24/May/2020 18:48:00] "GET /favicon.ico HTTP/1.0" 500 145
+[24/May/2020 18:48:05] "GET /api/register/ HTTP/1.0" 500 145
+[24/May/2020 18:48:05] "GET /favicon.ico HTTP/1.0" 500 145
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 24, 2020 - 18:47:59
+Django version 3.0.6, using settings 'serv.settings'
+Starting development server at http://0.0.0.0:8002/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 24, 2020 - 18:49:56
+Django version 3.0.6, using settings 'serv.settings'
+Starting development server at http://0.0.0.0:8002/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[24/May/2020 18:53:53] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 1913
+[24/May/2020 18:53:53] "GET /static/admin/css/base.css HTTP/1.0" 200 16378
+[24/May/2020 18:53:53] "GET /static/admin/css/responsive.css HTTP/1.0" 200 18052
+[24/May/2020 18:53:53] "GET /static/admin/css/login.css HTTP/1.0" 200 1233
+[24/May/2020 18:53:53] "GET /static/admin/css/fonts.css HTTP/1.0" 200 423
+[24/May/2020 18:53:53] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.0" 200 85876
+[24/May/2020 18:53:53] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.0" 200 85692
+Not Found: /favicon.ico
+[24/May/2020 18:53:53] "GET /favicon.ico HTTP/1.0" 404 2529
+[24/May/2020 18:53:58] "POST /admin/login/?next=/admin/ HTTP/1.0" 302 0
+[24/May/2020 18:53:58] "GET /admin/ HTTP/1.0" 200 11373
+[24/May/2020 18:53:59] "GET /static/admin/css/dashboard.css HTTP/1.0" 200 412
+[24/May/2020 18:53:59] "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 200 331
+[24/May/2020 18:53:59] "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 200 380
+[24/May/2020 18:53:59] "GET /static/admin/img/icon-deletelink.svg HTTP/1.0" 200 392
+[24/May/2020 18:53:59] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.0" 200 86184
+[24/May/2020 18:54:10] "GET /api/register HTTP/1.0" 301 0
+[24/May/2020 18:54:10] "GET /api/register/ HTTP/1.0" 200 11326
+[24/May/2020 18:54:11] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.0" 200 3385
+[24/May/2020 18:54:11] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.0" 200 121457
+[24/May/2020 18:54:11] "GET /static/rest_framework/css/prettify.css HTTP/1.0" 200 817
+[24/May/2020 18:54:11] "GET /static/rest_framework/css/default.css HTTP/1.0" 200 1131
+[24/May/2020 18:54:11] "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.0" 200 88145
+[24/May/2020 18:54:11] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.0" 200 39680
+[24/May/2020 18:54:11] "GET /static/rest_framework/js/ajax-form.js HTTP/1.0" 200 3597
+[24/May/2020 18:54:11] "GET /static/rest_framework/js/csrf.js HTTP/1.0" 200 1719
+[24/May/2020 18:54:11] "GET /static/rest_framework/js/prettify-min.js HTTP/1.0" 200 13632
+[24/May/2020 18:54:11] "GET /static/rest_framework/js/default.js HTTP/1.0" 200 1268
+[24/May/2020 18:54:11] "GET /static/rest_framework/img/grid.png HTTP/1.0" 200 1458
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 24, 2020 - 18:53:51
+Django version 3.0.6, using settings 'serv.settings'
+Starting development server at http://0.0.0.0:8002/
+Quit the server with CONTROL-C.
+<rest_framework.request.Request object at 0x7f1807365100>
+[24/May/2020 18:54:34] "GET /api/register/ HTTP/1.0" 500 145
+[24/May/2020 18:54:34] "GET /favicon.ico HTTP/1.0" 500 145
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 24, 2020 - 18:54:31
+Django version 3.0.6, using settings 'serv.settings'
+Starting development server at http://0.0.0.0:8002/
+Quit the server with CONTROL-C.

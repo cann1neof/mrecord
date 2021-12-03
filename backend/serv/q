@@ -1,0 +1,19 @@
+[0;1;32m●[0m gunicorn.service - gunicorn daemon
+     Loaded: loaded (/etc/systemd/system/gunicorn.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Sun 2020-05-24 21:44:09 UTC; 4 days ago
+   Main PID: 76676 (gunicorn)
+      Tasks: 4 (limit: 2355)
+     Memory: 140.6M
+     CGroup: /system.slice/gunicorn.service
+             ├─76676 /home/mrecords108/proj/backend/bin/python3 /home/mrecords108/proj/backend/bin/gunicorn --workers 3 --bind unix:/home/mrecords108/proj/backend/gunicorn.sock serv.wsgi:application
+             ├─76686 /home/mrecords108/proj/backend/bin/python3 /home/mrecords108/proj/backend/bin/gunicorn --workers 3 --bind unix:/home/mrecords108/proj/backend/gunicorn.sock serv.wsgi:application
+             ├─76687 /home/mrecords108/proj/backend/bin/python3 /home/mrecords108/proj/backend/bin/gunicorn --workers 3 --bind unix:/home/mrecords108/proj/backend/gunicorn.sock serv.wsgi:application
+             └─76688 /home/mrecords108/proj/backend/bin/python3 /home/mrecords108/proj/backend/bin/gunicorn --workers 3 --bind unix:/home/mrecords108/proj/backend/gunicorn.sock serv.wsgi:application
+
+May 24 21:44:09 323425-cf48057.tmweb.ru systemd[1]: Started gunicorn daemon.
+May 24 21:44:09 323425-cf48057.tmweb.ru gunicorn[76676]: [2020-05-24 21:44:09 +0000] [76676] [INFO] Starting gunicorn 20.0.4
+May 24 21:44:09 323425-cf48057.tmweb.ru gunicorn[76676]: [2020-05-24 21:44:09 +0000] [76676] [INFO] Listening at: unix:/home/mrecords108/proj/backend/gunicorn.sock (76676)
+May 24 21:44:09 323425-cf48057.tmweb.ru gunicorn[76676]: [2020-05-24 21:44:09 +0000] [76676] [INFO] Using worker: sync
+May 24 21:44:09 323425-cf48057.tmweb.ru gunicorn[76686]: [2020-05-24 21:44:09 +0000] [76686] [INFO] Booting worker with pid: 76686
+May 24 21:44:09 323425-cf48057.tmweb.ru gunicorn[76687]: [2020-05-24 21:44:09 +0000] [76687] [INFO] Booting worker with pid: 76687
+May 24 21:44:09 323425-cf48057.tmweb.ru gunicorn[76688]: [2020-05-24 21:44:09 +0000] [76688] [INFO] Booting worker with pid: 76688

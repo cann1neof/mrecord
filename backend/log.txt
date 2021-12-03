@@ -1,0 +1,80 @@
+[2020-05-31 11:32:45 +0000] [129557] [INFO] Worker exiting (pid: 129557)
+[2020-05-31 11:32:45 +0000] [129558] [INFO] Worker exiting (pid: 129558)
+[2020-05-31 11:32:45 +0000] [129559] [INFO] Worker exiting (pid: 129559)
+[2020-05-31 11:32:46 +0000] [129571] [INFO] Starting gunicorn 20.0.4
+[2020-05-31 11:32:46 +0000] [129571] [INFO] Listening at: unix:/home/mrecords108/proj/backend/gunicorn.sock (129571)
+[2020-05-31 11:32:46 +0000] [129571] [INFO] Using worker: sync
+[2020-05-31 11:32:46 +0000] [129585] [INFO] Booting worker with pid: 129585
+[2020-05-31 11:32:46 +0000] [129586] [INFO] Booting worker with pid: 129586
+[2020-05-31 11:32:46 +0000] [129587] [INFO] Booting worker with pid: 129587
+[2020-05-31 11:44:03 +0000] [129571] [INFO] Handling signal: term
+[2020-05-31 11:44:03 +0000] [129585] [INFO] Worker exiting (pid: 129585)
+[2020-05-31 11:44:03 +0000] [129586] [INFO] Worker exiting (pid: 129586)
+[2020-05-31 11:44:03 +0000] [129587] [INFO] Worker exiting (pid: 129587)
+[2020-05-31 11:44:05 +0000] [129571] [INFO] Shutting down: Master
+[2020-05-31 11:44:05 +0000] [129682] [INFO] Starting gunicorn 20.0.4
+[2020-05-31 11:44:05 +0000] [129682] [INFO] Listening at: unix:/home/mrecords108/proj/backend/gunicorn.sock (129682)
+[2020-05-31 11:44:05 +0000] [129682] [INFO] Using worker: sync
+[2020-05-31 11:44:05 +0000] [129699] [INFO] Booting worker with pid: 129699
+[2020-05-31 11:44:05 +0000] [129700] [INFO] Booting worker with pid: 129700
+[2020-05-31 11:44:05 +0000] [129701] [INFO] Booting worker with pid: 129701
+[2020-05-31 11:50:33 +0000] [129682] [INFO] Handling signal: term
+[2020-05-31 11:50:33 +0000] [129699] [INFO] Worker exiting (pid: 129699)
+[2020-05-31 11:50:33 +0000] [129701] [INFO] Worker exiting (pid: 129701)
+[2020-05-31 11:50:33 +0000] [129700] [INFO] Worker exiting (pid: 129700)
+[2020-05-31 11:50:34 +0000] [129682] [INFO] Shutting down: Master
+[2020-05-31 11:50:34 +0000] [129741] [INFO] Starting gunicorn 20.0.4
+[2020-05-31 11:50:34 +0000] [129741] [INFO] Listening at: unix:/home/mrecords108/proj/backend/gunicorn.sock (129741)
+[2020-05-31 11:50:34 +0000] [129741] [INFO] Using worker: sync
+[2020-05-31 11:50:34 +0000] [129757] [INFO] Booting worker with pid: 129757
+[2020-05-31 11:50:34 +0000] [129758] [INFO] Booting worker with pid: 129758
+[2020-05-31 11:50:34 +0000] [129759] [INFO] Booting worker with pid: 129759
+[2020-05-31 12:36:56 +0000] [129741] [INFO] Handling signal: term
+[2020-05-31 12:36:56 +0000] [129759] [INFO] Worker exiting (pid: 129759)
+[2020-05-31 12:36:56 +0000] [129757] [INFO] Worker exiting (pid: 129757)
+[2020-05-31 12:36:56 +0000] [129758] [INFO] Worker exiting (pid: 129758)
+[2020-05-31 12:36:56 +0000] [129741] [INFO] Shutting down: Master
+[2020-05-31 12:36:57 +0000] [130296] [INFO] Starting gunicorn 20.0.4
+[2020-05-31 12:36:57 +0000] [130296] [INFO] Listening at: unix:/home/mrecords108/proj/backend/gunicorn.sock (130296)
+[2020-05-31 12:36:57 +0000] [130296] [INFO] Using worker: sync
+[2020-05-31 12:36:57 +0000] [130313] [INFO] Booting worker with pid: 130313
+[2020-05-31 12:36:57 +0000] [130314] [INFO] Booting worker with pid: 130314
+[2020-05-31 12:36:57 +0000] [130315] [INFO] Booting worker with pid: 130315
+[2020-05-31 12:44:03 +0000] [130314] [INFO] Worker exiting (pid: 130314)
+[2020-05-31 12:44:03 +0000] [130315] [INFO] Worker exiting (pid: 130315)
+[2020-05-31 12:44:03 +0000] [130313] [INFO] Worker exiting (pid: 130313)
+[2020-05-31 12:44:03 +0000] [130296] [INFO] Handling signal: term
+[2020-05-31 12:44:03 +0000] [130296] [INFO] Shutting down: Master
+[2020-05-31 12:44:04 +0000] [130420] [INFO] Starting gunicorn 20.0.4
+[2020-05-31 12:44:04 +0000] [130420] [INFO] Listening at: unix:/home/mrecords108/proj/backend/gunicorn.sock (130420)
+[2020-05-31 12:44:04 +0000] [130420] [INFO] Using worker: sync
+[2020-05-31 12:44:04 +0000] [130436] [INFO] Booting worker with pid: 130436
+[2020-05-31 12:44:04 +0000] [130437] [INFO] Booting worker with pid: 130437
+[2020-05-31 12:44:04 +0000] [130438] [INFO] Booting worker with pid: 130438
+[2020-05-31 12:48:13 +0000] [130420] [INFO] Handling signal: term
+[2020-05-31 12:48:13 +0000] [130436] [INFO] Worker exiting (pid: 130436)
+[2020-05-31 12:48:13 +0000] [130437] [INFO] Worker exiting (pid: 130437)
+[2020-05-31 12:48:13 +0000] [130438] [INFO] Worker exiting (pid: 130438)
+[2020-05-31 12:48:14 +0000] [130420] [INFO] Shutting down: Master
+[2020-05-31 12:48:14 +0000] [130472] [INFO] Starting gunicorn 20.0.4
+[2020-05-31 12:48:14 +0000] [130472] [INFO] Listening at: unix:/home/mrecords108/proj/backend/gunicorn.sock (130472)
+[2020-05-31 12:48:14 +0000] [130472] [INFO] Using worker: sync
+[2020-05-31 12:48:14 +0000] [130485] [INFO] Booting worker with pid: 130485
+[2020-05-31 12:48:14 +0000] [130486] [INFO] Booting worker with pid: 130486
+[2020-05-31 12:48:14 +0000] [130487] [INFO] Booting worker with pid: 130487
+[2020-05-31 12:54:55 +0000] [130472] [INFO] Handling signal: term
+[2020-05-31 12:54:55 +0000] [130485] [INFO] Worker exiting (pid: 130485)
+[2020-05-31 12:54:55 +0000] [130487] [INFO] Worker exiting (pid: 130487)
+[2020-05-31 12:54:55 +0000] [130486] [INFO] Worker exiting (pid: 130486)
+[2020-05-31 12:54:56 +0000] [130472] [INFO] Shutting down: Master
+[2020-05-31 12:54:56 +0000] [130559] [INFO] Starting gunicorn 20.0.4
+[2020-05-31 12:54:56 +0000] [130559] [INFO] Listening at: unix:/home/mrecords108/proj/backend/gunicorn.sock (130559)
+[2020-05-31 12:54:56 +0000] [130559] [INFO] Using worker: sync
+[2020-05-31 12:54:56 +0000] [130576] [INFO] Booting worker with pid: 130576
+[2020-05-31 12:54:56 +0000] [130577] [INFO] Booting worker with pid: 130577
+[2020-05-31 12:54:56 +0000] [130578] [INFO] Booting worker with pid: 130578
+[2020-05-31 13:05:48 +0000] [130559] [INFO] Handling signal: term
+[2020-05-31 13:05:48 +0000] [130576] [INFO] Worker exiting (pid: 130576)
+[2020-05-31 13:05:48 +0000] [130578] [INFO] Worker exiting (pid: 130578)
+[2020-05-31 13:05:48 +0000] [130577] [INFO] Worker exiting (pid: 130577)
+[2020-05-31 13:05:48 +0000] [130559] [INFO] Shutting down: Master

@@ -1,0 +1,157 @@
+[
+    {
+        "model": "api.hospital",
+        "pk": 1,
+        "fields": {
+            "code": "",
+            "region": "Europe",
+            "country": "Russia",
+            "city": "Moscow",
+            "street": "Lomonosovsky prospect, 27, 10",
+            "geo_data": "55.698151, 37.516572",
+            "post_index": "119192",
+            "name": "\u041c\u041d\u041e\u0426 \u041c\u0413\u0423 \u0438\u043c \u041c.\u0412. \u041b\u043e\u043c\u043d\u043e\u0441\u043e\u0432\u0430",
+            "additional": "\u041c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0438\u0439 \u043d\u0430\u0443\u0447\u043d\u043e-\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0446\u0435\u043d\u0442\u0440 \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u043e\u0433\u043e \u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0430 \u0438\u043c \u041c\u0438\u0445\u0430\u0438\u043b\u0430 \u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u0438\u0447\u0430 \u041b\u043e\u043c\u043e\u043d\u043e\u0441\u043e\u0432\u0430"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "vb0ldXhCqcpflPNt$0800766a481ce313532d0538107279e3eeabcbea743564111a0decd835b5b268",
+            "username": "test",
+            "first_name": "firstNameTest",
+            "last_name": "lastNameTest",
+            "email": "test@dev.com",
+            "is_superuser": 0,
+            "last_login": null,
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2020-04-26 19:40:36.993864"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 1,
+        "fields": {
+            "second_name": "secondNameTest",
+            "is_moderator": false,
+            "is_doctor": false,
+            "telephone": "9999999999",
+            "country_code": 7
+        }
+    },
+    {
+        "model": "api.record",
+        "pk": 1,
+        "fields": {
+            "serial_number": "RY2FPt",
+            "insurance_number": "1234689012345672",
+            "illnesses": "[{\"info\":\"\u0420\u0430\u0441\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e \u043f\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u044f, \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u043e\u0435 \u0440\u0430\u043c\u043a\u0430\u043c\u0438 \u0441\u0435\u043c\u044c\u0438\",\"code\":\"F910\",\"start_date\":\"2020-04-27\"}]",
+            "contacts": "[]",
+            "hospitals": "[]",
+            "recipes": "[]",
+            "blood_type": "0(I) Rh-",
+            "children": "[]",
+            "owner": 1
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "4csUpp2gOVLIwiBm$b3351efc5e589591f248861aef47a68adb90ec62b7f032b109e3f283f4ca4991",
+            "username": "DOCTOR_MODERATOR_test",
+            "first_name": "firstNameTest",
+            "last_name": "lastNameTest",
+            "email": "moderator@dev.com",
+            "is_superuser": 0,
+            "last_login": null,
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2020-04-26 19:40:36.993864"
+        }
+    },
+    {
+        "model": "api.user",
+        "pk": 2,
+        "fields": {
+            "second_name": "secondNameTest",
+            "is_moderator": 1,
+            "is_doctor": 1,
+            "telephone": "7777777777",
+            "country_code": 7
+        }
+    },
+    {
+        "model": "api.record",
+        "pk": 2,
+        "fields": {
+            "serial_number": "KEK123",
+            "insurance_number": "1234689123345672",
+            "illnesses": "[{\"info\":\"\u0420\u0430\u0441\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e \u043f\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u044f, \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u043e\u0435 \u0440\u0430\u043c\u043a\u0430\u043c\u0438 \u0441\u0435\u043c\u044c\u0438\",\"code\":\"F910\",\"start_date\":\"2020-04-27\"}]",
+            "contacts": "[]",
+            "hospitals": "[]",
+            "recipes": "[]",
+            "blood_type": "0(I) Rh+",
+            "children": "[]",
+            "owner": 2
+        }
+    },
+    {
+        "model": "api.doctor",
+        "pk": 1,
+        "fields": {
+            "user_id": 2,
+            "hospital_id": 1,
+            "code": "123abc"
+        }
+    },
+    {
+        "model": "api.moderator",
+        "pk": 1,
+        "fields": {
+            "user_id": 2,
+            "hospital_id": 1
+        }
+    },
+    {
+        "model": "map.deliverymap",
+        "pk": 1,
+        "fields": {
+            "name": "First Test POINT",
+            "additional": "KEK JUST TEST",
+            "coords": "55.753304, 37.619475"
+        }
+    },
+    {
+        "model": "market.warehouse",
+        "pk": 1,
+        "fields": {
+            "model": 1,
+            "specification": 1,
+            "quantity": 8,
+            "name": "\u0416\u0435\u0442\u043e\u043d",
+            "distributor": "Undefined.Health",
+            "info": "\u043a\u0435\u043a",
+            "price": 1000,
+            "selector": "[{\"value\": 1,\"text\":\"Capacity\"},{\"value\": 2,\"text\":\"Safety\"}]",
+            "src": "chip.png"
+        }
+    },
+    {
+        "model": "market.warehouse",
+        "pk": 2,
+        "fields": {
+            "model": 1,
+            "specification": 2,
+            "quantity": 11,
+            "name": "\u0416\u0435\u0442\u043e\u043d",
+            "distributor": "Undefined.Health",
+            "info": "\u043a\u0435\u043a",
+            "price": 1000,
+            "selector": "[{\"value\": 1,\"text\":\"Capacity\"},{\"value\": 2,\"text\":\"Safety\"}]",
+            "src": "chip.png"
+        }
+    }
+]

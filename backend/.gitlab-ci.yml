@@ -1,0 +1,51 @@
+image: python:latest
+
+cache:
+  paths:
+  - ~/.cache/pip/
+
+stages:
+  - style
+  - test
+
+# Выполняется до начала работы скрипта
+before_script:
+  - python -V # Print out python version for debugging
+  - pip install -r requirements.txt
+  - pip install -r ci/pylint_requirements.txt
+
+
+# Описание самого worler'а
+pylint:
+  stage: style
+  before_script:
+  - pip install -r ci/pylint_requirements.txt
+  script:
+  - ./ci/pylint_runner.sh
+  artifacts:
+    paths:
+      - public/pylint.svg
+      - public/pylint.html
+
+coverage-test:
+  stage: test
+  before_script:
+  - pip install -r requirements.txt
+  script:
+  - coverage run manage.py test
+  - coverage report --omit=manage.py
+  - coverage html --omit=manage.py
+  - mv htmlcov public/coverage
+  artifacts:
+    paths:
+      - public/coverage
+
+test:
+  stage: test
+  before_script:
+  - pip install -r requirements.txt
+  script:
+  - python3 manage.py test | tee test-report.txt
+  artifacts:
+    paths:
+      - public/test-report
